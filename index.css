@@ -1,0 +1,265 @@
+.body{
+    width: 83rem;
+    height: 100rem;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(160, 187, 211);
+    
+    
+    
+}
+
+
+
+.contenedor{
+    width: 61rem;   
+    height: 10rem;  
+    margin-top: 3rem; 
+    margin-left: 11rem; 
+    display: flex;
+    align-items: center;
+    background-color:  rgb(194, 201, 233);
+    border-radius: 1rem;
+    
+}
+
+.imagen{
+    width: 9rem; 
+    height: 9rem;
+    margin-right: 1rem; 
+    margin-left: 2rem; 
+    margin-top: 1rem; 
+    margin-bottom: 1rem; 
+    background-size: cover;
+    border-radius: 5rem; 
+}
+.h1miclase{
+    font-family: 'JetBrains Mono', monospace;
+    font-family: 'Meera Inimai', sans-serif;
+    align-items: center;
+    font-size: 2rem; 
+    color: black;
+    margin-right: 1rem; 
+}
+.h2miclase{
+    font-family: 'JetBrains Mono', monospace;
+    font-family: 'Meera Inimai', sans-serif;
+    align-items: center;
+    color:rgb(63, 60, 60); 
+    font-size: 2rem; 
+    margin-right: 1rem; 
+    margin-top: 1.9rem; 
+}    
+.h3miclase{ 
+    text-align: center;
+}
+
+.trayectoria{
+    float: right;
+    position: absolute;
+    display: flex;
+    width: 45rem; 
+    height: 45rem; 
+    margin-top: 3.5rem; 
+    margin-left: 27rem;
+    background-color:  rgb(194, 201, 233);
+    border-radius: 1rem;
+    display: none;
+    
+}
+
+.datospersonales{
+    float: left;
+    position: absolute;
+    display: flex;
+    width: 15rem;  
+    height: 58rem; 
+    margin-left: 11rem; 
+    background-color:   rgb(194, 201, 233);
+    border-radius: 1rem; 
+    display: none;
+    
+}
+    
+.boton2{
+    position: absolute;
+    display: flex;
+    margin-top: 1rem;
+    margin-left: 47rem;
+    margin-bottom: 1rem;
+    width: 5rem;
+    height: 2rem;
+    float: right;
+    background-color: rgb(194, 201, 233);
+    border:none;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0rem 0rem 0.7rem rgb(53, 2, 53);
+    opacity: 0.7;
+    
+}
+
+.boton2:hover{
+    opacity: 1;
+}
+
+.boton1{
+    display: flex;
+    margin-top: 1rem;
+    margin-left: 15rem; 
+    margin-bottom: 0.5rem;
+    width: 6rem; 
+    height: 2rem; 
+    background-color: rgb(194, 201, 233) ;
+    border:none;
+    border-radius: 0.5rem; 
+    padding: 1rem; 
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0rem 0rem 0.7rem rgb(53, 2, 53);
+    opacity: 0.7;
+}
+
+.boton1:hover{
+    opacity: 1;
+
+}
+
+.boton3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1rem;
+    margin-bottom: 2rem; 
+    margin-left: 2.5rem; 
+    width: 10rem; 
+    height: 2rem; 
+    background-color: rgb(160, 187, 211);
+    border:none;
+    border-radius: 0.5rem;
+    padding: 1rem; 
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0rem 0rem 0.7rem rgb(53, 2, 53);
+    opacity: 0.7;
+}
+
+.boton3:hover{
+    opacity: 1;
+}
+
+.boton4{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 8rem;
+    margin-bottom: 2rem;
+    margin-left: 19rem;
+    width: 6rem;
+    height: 2rem;
+    background-color: rgb(160, 187, 211);
+    border:none;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0rem 0rem 0.7rem rgb(53, 2, 53);
+    opacity: 0.7;
+}
+
+.boton4:hover{
+    opacity: 1;
+}
+
+aside i{
+    font-size: 1.5rem;
+    margin-right: 1rem; 
+}
+ 
+section i{
+    font-size: 1.5rem; 
+    margin-right: 1rem;
+}
+
+hr{
+    border-color: rgb(160, 187, 211);
+    border-top: 4rem;
+    
+    
+}
+    
+    
+@media (max-width: 778px){
+
+body{ 
+    width: auto;
+    height: auto;
+    position:absolute;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    justify-self: center;
+    gap: 6rem;
+}
+ 
+.boton1{
+    display: none;
+
+}
+
+.boton2{
+    display: none;
+
+}
+
+.boton3{
+    display: none;
+}
+
+.boton4{
+    display: none;
+}
+.contenedor{
+    position: relative;
+    width: auto;
+    margin: 1rem 0;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 0 2rem rgb(53, 2, 53);
+    
+}
+
+.trayectoria{
+    position: relative;
+    margin: 1rem 0;
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+   
+ }
+.datospersonales{
+    position: relative;
+    margin: 1rem 0;
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+}
+    
+  
+
+    
